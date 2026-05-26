@@ -1,0 +1,162 @@
+
+(EDIF
+  (rename &LM393DR2G "LM393DR2G")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2026 05 08 19 22 28)
+      (dataOrigin "10859/2054354/2.50/8/2/Integrated Circuit")
+      (program "SamacSys ECAD Model LM393DR2G"
+        (version "4.1"))))
+  (library
+  (rename &LM393DR2G "LM393DR2G")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &LM393DR2G "LM393DR2G")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "IC")
+          (property (rename PACKAGENAME "PackageName") (string "LM393DR2G"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "SOIC127P600X175-8N"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "onsemi"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "LM393DR2G"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "863-LM393DR2G"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/onsemi/LM393DR2G?qs=2OtswVQKCOG5xGitOOiP7w%3D%3D"))
+          (property (rename &Arrow_Part_Number "Arrow Part Number") (string "LM393DR2G"))
+          (property (rename &Arrow_Price_Stock "Arrow Price/Stock") (string "https://www.arrow.com/en/products/lm393dr2g/on-semiconductor.html?utm_currency=USD&region=europe"))
+          (property (rename &Description "Description") (string "Low Input Offset Current: 5.0 nA; Low Input Offset Voltage: 2.0 mV (max) LM393A 5.0 mV (max) LM293/393; Low Input Bias Current: 25 nA; Wide Single-Supply Range: 2.0 Vdc to 36 Vdc; Output Voltage Compatible with DTL, ECL, TTL, MOS, and CMOS Logic Levels; ESD Clamps on the Inputs Increase the Ruggedness of the Device without Affecting Performance; Input Common Mode Range to Ground Level; Very Low Current Drain Independent of Supply Voltage: 0.4 mA; Split-Supply Range: +/-1.0 Vdc to +/-18 Vdc; Differential Inp"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.onsemi.com/pub/Collateral/LM393-D.PDF"))
+          (property (rename &Height "Height") (string "1.75 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "LM393DR2G"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &OUTPUTA "OUTPUTA")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &INPUTSA_1 "INPUTSA_1")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &INPUTSA_2 "INPUTSA_2")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND "GND")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &INPUTSB_1 "INPUTSB_1")
+            (designator "5")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (port
+            (rename &INPUTSB_2 "INPUTSB_2")
+            (designator "6")
+            (property (rename ORDER "Order") (string "5") (owner "OrCAD"))
+          )
+          (port
+            (rename &OUTPUTB "OUTPUTB")
+            (designator "7")
+            (property (rename ORDER "Order") (string "6") (owner "OrCAD"))
+          )
+          (port
+            (rename &VCC "VCC")
+            (designator "8")
+            (property (rename ORDER "Order") (string "7") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &OUTPUTA (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &INPUTSA_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &INPUTSA_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -300) (pt 0 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -300))))
+            )
+            (portImplementation
+              (name &GND (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -400) (pt 0 -400))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -400))))
+            )
+            (portImplementation
+              (name &VCC (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1200 -100) (pt 1400 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 1400 -100))))
+            )
+            (portImplementation
+              (name &OUTPUTB (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1200 -200) (pt 1400 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 1400 -200))))
+            )
+            (portImplementation
+              (name &INPUTSB_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1200 -300) (pt 1400 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt 1400 -300))))
+            )
+            (portImplementation
+              (name &INPUTSB_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1200 -400) (pt 1400 -400))))
+              (connectLocation (figure GRAPHIC (dot (pt 1400 -400))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 1200 0)
+                  (pt 1200 -500)
+                  (pt 0 -500)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1250 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1250 30))))
+          )
+        )
+      )
+    )
+  )
+)

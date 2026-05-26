@@ -1,0 +1,8 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "TLV910") (type "KiCad") (uri "/home/widar/KicadProjects/Kicad imports/ul_TLV9102IDR/KiCADv6/2026-05-07_19-59-40.kicad_sym") (options "") (descr ""))
+	(lib (name "LM393(semi)") (type "KiCad") (uri "/home/widar/KicadProjects/Kicad imports/LIB_LM393DR2G/LM393DR2G/KiCad") (options "") (descr ""))
+	(lib (name "TLV9101") (type "KiCad") (uri "${KIPRJMOD}/CAD/TLV/TLV9101IDBVR/KiCADv6/2026-05-12_05-35-37.kicad_sym") (options "") (descr ""))
+	(lib (name "2Pin") (type "KiCad") (uri "${KIPRJMOD}/CAD/2pinheader/KiCADv6") (options "") (descr ""))
+	(lib (name "Barrel(DC)") (type "KiCad") (uri "${KIPRJMOD}/CAD/PJ_002A(1)") (options "") (descr ""))
+)

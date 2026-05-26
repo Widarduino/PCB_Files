@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM393DR2G
+D Low Input Offset Current: 5.0 nA; Low Input Offset Voltage: 2.0 mV (max) LM393A 5.0 mV (max) LM293/393; Low Input Bias Current: 25 nA; Wide Single-Supply Range: 2.0 Vdc to 36 Vdc; Output Voltage Compatible with DTL, ECL, TTL, MOS, and CMOS Logic Levels; ESD Clamps on the Inputs Increase the Ruggedness of the Device without Affecting Performance; Input Common Mode Range to Ground Level; Very Low Current Drain Independent of Supply Voltage: 0.4 mA; Split-Supply Range: +/-1.0 Vdc to +/-18 Vdc; Differential Inp
+K
+F https://www.onsemi.com/pub/Collateral/LM393-D.PDF
+$ENDCMP
+#
+#End Doc Library

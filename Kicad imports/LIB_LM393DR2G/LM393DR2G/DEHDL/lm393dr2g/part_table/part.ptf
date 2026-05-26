@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LM393DR2G'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "onsemi", "LM393DR2G" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "863-LM393DR2G", "https://www.mouser.co.uk/ProductDetail/onsemi/LM393DR2G?qs=2OtswVQKCOG5xGitOOiP7w%3D%3D", "LM393DR2G", "https://www.arrow.com/en/products/lm393dr2g/on-semiconductor.html?utm_currency=USD&region=europe", "Low Input Offset Current: 5.0 nA; Low Input Offset Voltage: 2.0 mV (max) LM393A 5.0 mV (max) LM293/393; Low Input Bias Current: 25 nA; Wide Single-Supply Range: 2.0 Vdc to 36 Vdc; Output Voltage Compatible with DTL, ECL, TTL, MOS, and CMOS Logic Levels; ESD Clamps on the Inputs Increase the Ruggedness of the Device without Affecting Performance; Input Common Mode Range to Ground Level; Very Low Current Drain Independent of Supply Voltage: 0.4 mA; Split-Supply Range: +/-1.0 Vdc to +/-18 Vdc; Differential Inp", "https://www.onsemi.com/pub/Collateral/LM393-D.PDF", "1.75 mm"
+END_PART
+
+END.

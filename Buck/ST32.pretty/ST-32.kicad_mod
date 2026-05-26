@@ -1,0 +1,120 @@
+(footprint "ST-32"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.7 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ee60a6a3-ac6e-496e-9b54-028b24b1a570")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ST-32EA"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7ebd3717-b90b-4287-94ba-45b1ce12826a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff301f86-f1ac-48cb-9f7a-06dad8eee0b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "735b01a3-0e2b-4da2-9712-f43cc4649d93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.7 1.7)
+		(end 1.7 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "67e1789c-bb68-433c-8bf8-307f8631e274")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6ccca29f-e2c7-459f-9bf1-d8f38b916a63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(point
+		(at 0 0)
+		(size 1)
+		(layer "F.SilkS")
+		(uuid "e281d82c-b0a2-4d31-86db-0fcd189e2e44")
+	)
+	(pad "1" smd roundrect
+		(at -1 1.95)
+		(size 1.2 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "52b7df4c-f267-4680-ae35-f1165600af0c")
+	)
+	(pad "2" smd roundrect
+		(at 0 -2)
+		(size 1.6 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "354d8fcc-8e4c-4fbd-9dea-c734ea08a9f9")
+	)
+	(pad "3" smd roundrect
+		(at 1 1.95)
+		(size 1.2 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "0bfef65f-0eb3-4dbe-a4e1-b0d058a8fd29")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/CAD/st-32A/COPAL_ST32ETA200k25(2)/ST-32ETA200k_(25).stp"
+		(offset
+			(xyz 0 0 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

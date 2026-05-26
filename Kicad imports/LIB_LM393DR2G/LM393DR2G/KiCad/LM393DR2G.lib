@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model LM393DR2G
+#/10859/2054354/2.50/8/2/Integrated Circuit
+DEF LM393DR2G IC 0 30 Y Y 1 F N
+F0 "IC" 1450 300 50 H V L CNN
+F1 "LM393DR2G" 1450 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1450 100 50 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/LM393-D.PDF" 1450 0 50 H I L CNN
+F4 "Low Input Offset Current: 5.0 nA; Low Input Offset Voltage: 2.0 mV (max) LM393A 5.0 mV (max) LM293/393; Low Input Bias Current: 25 nA; Wide Single-Supply Range: 2.0 Vdc to 36 Vdc; Output Voltage Compatible with DTL, ECL, TTL, MOS, and CMOS Logic Levels; ESD Clamps on the Inputs Increase the Ruggedness of the Device without Affecting Performance; Input Common Mode Range to Ground Level; Very Low Current Drain Independent of Supply Voltage: 0.4 mA; Split-Supply Range: +/-1.0 Vdc to +/-18 Vdc; Differential Inp" 1450 -100 50 H I L CNN "Description"
+F5 "1.75" 1450 -200 50 H I L CNN "Height"
+F6 "onsemi" 1450 -300 50 H I L CNN "Manufacturer_Name"
+F7 "LM393DR2G" 1450 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "863-LM393DR2G" 1450 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/onsemi/LM393DR2G?qs=2OtswVQKCOG5xGitOOiP7w%3D%3D" 1450 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "LM393DR2G" 1450 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/lm393dr2g/on-semiconductor.html?utm_currency=USD&region=europe" 1450 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X OUTPUTA 1 0 0 200 R 50 50 0 0 P
+X INPUTSA_1 2 0 -100 200 R 50 50 0 0 P
+X INPUTSA_2 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X VCC 8 1600 0 200 L 50 50 0 0 P
+X OUTPUTB 7 1600 -100 200 L 50 50 0 0 P
+X INPUTSB_2 6 1600 -200 200 L 50 50 0 0 P
+X INPUTSB_1 5 1600 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1400 100 1400 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
